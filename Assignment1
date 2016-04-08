@@ -1,0 +1,44 @@
+1) What are the 5 classic componenets of a computer? Provice an example (just a couple words) for any three of the components in a smartphone.
+
+A. Datapath, Control, Input, Output, Memory
+
+2) In a few words (less than 10), state what has been the primary reason for the rapid advances in computer technology?
+
+A. Moore's law and the doubling of transistors every two years.
+
+3) Given a color display using 8 bits for each of the primary colors (red, green, blue) per pixel and a frame size of 1920x1080.
+	a) What is the minimum size in bytes of the frame buffer to store a frame?
+
+	A. (24 * 1920 * 1080) / 8 = 6,220,800 bytes.
+
+	b) How long would it take at a minimum for the frame to be sent over a 100Mbits/s network?
+
+	A. 6,220,800 / 125,000 = 49.7664 seconds
+
+4) Provide the binary and hexadecimal representations for the integer -27 in the following forms. Don't use a calculator! Do it by hand.
+	a) Sign and magnitude as an 8 bit value
+		A. 1011011
+	b) 8 bit 1's complement as an 8 bit value
+		A. 11100100
+	c) 2's complement as an 8 bit value
+		A. 11100101
+	d) 2's complement as a 12 bit value
+		A. 111111100101
+	e) As a floating point number in the simple 16 bit form presented in class.
+		A. 
+
+5) Consider a processor with a 1.6GHz clock rate and a CPI of 1.7. If a program runs in 10 seconds:
+	How many clock cycles were required?
+		Work. 9411764705.8824 * 1.7 
+		A. 16000000000
+	How many instructions executed?
+		Work. 10 = (instructions * 1.7) / 1.6x10^9
+		A. 9411764705.8824
+
+6) Consider a program that has 1 billion instructions and executes in 1.1 seconds, what is the CPI if the clock cycle time is 500 picoseconds?
+	Work. 1.1 = 1,000,000,000 * CPI * 500x10^-12
+	A. 2.2
+
+7) If a better compiler than the one used in problem 6 produced a half billion instructions with an average CPI of 1.1, what would be the speedup over the original 1.1 seconds on the same processor?
+	Work. time = 500,000,000 * 1.1 * 500x10^-12
+	A. Twice as fast. 2x the speed. 1billion instructions would execute in .55 seconds
