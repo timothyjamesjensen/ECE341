@@ -1,6 +1,15 @@
-1) What are the 5 classic componenets of a computer? Provice an example (just a couple words) for any three of the components in a smartphone.
+Timothy Jensen
+ECE341
+Assignment 1
+4/08/16
 
-A. Datapath, Control, Input, Output, Memory
+1) What are the 5 classic componenets of a computer?
+
+	A. Datapath, Control, Input, Output, Memory 
+
+   Provice an example (just a couple words) for any three of the components in a smartphone.
+
+	A. The Input is a touchscreen/keyboard, the Output is the display, and the Memory is internal/external storage usually as flash storage/ssd.  
 
 2) In a few words (less than 10), state what has been the primary reason for the rapid advances in computer technology?
 
@@ -25,20 +34,21 @@ A. Moore's law and the doubling of transistors every two years.
 	d) 2's complement as a 12 bit value
 		A. 111111100101
 	e) As a floating point number in the simple 16 bit form presented in class.
-		A. 
+		A. 1111101100000000
+      
 
 5) Consider a processor with a 1.6GHz clock rate and a CPI of 1.7. If a program runs in 10 seconds:
 	How many clock cycles were required?
-		Work. 9411764705.8824 * 1.7 
-		A. 16000000000
+		Calculation. 9411764705.8824 * 1.7 
+		A. 16000000000 clock cycles
 	How many instructions executed?
-		Work. 10 = (instructions * 1.7) / 1.6x10^9
-		A. 9411764705.8824
+		Calculation. 10 = (instructions * 1.7) / 1.6x10^9
+		A. 9411764705.8824 instructions executed
 
 6) Consider a program that has 1 billion instructions and executes in 1.1 seconds, what is the CPI if the clock cycle time is 500 picoseconds?
-	Work. 1.1 = 1,000,000,000 * CPI * 500x10^-12
-	A. 2.2
+	Calculation. 1.1 = 1,000,000,000 * CPI * 500x10^-12
+	A. CPI = 2.2
 
 7) If a better compiler than the one used in problem 6 produced a half billion instructions with an average CPI of 1.1, what would be the speedup over the original 1.1 seconds on the same processor?
-	Work. time = 500,000,000 * 1.1 * 500x10^-12
-	A. Twice as fast. 2x the speed. 1billion instructions would execute in .55 seconds
+	Calculation. time = 500,000,000 * 1.1 * 500x10^-12
+	A. 1 billion instructions would execute in .55 seconds, so it would be twice as fast.
